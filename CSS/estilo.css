@@ -1,4 +1,4 @@
-#bodyForm{
+body{
     background-color: darkgray;
 }
 
@@ -7,13 +7,38 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 90vh;
   }
 .formulario{
+    border-radius: 25px;
     width: 300px;
     height: auto;
     background-color: aqua;
-    box-shadow: 0px 0px 20px ;
+    box-shadow: 0px 0px 25px ;
     padding-bottom: 20px;
 }
-  
+
+.navegador ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navegador li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.navegador li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegador li a:hover{
+    background-color: grey;
+}
