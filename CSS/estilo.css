@@ -1,5 +1,8 @@
 body{
-    background: linear-gradient(to right, #1d976c, #93f9b9); 
+    width: 99%;
+    height: 100%;
+    min-height: 97.7vh;
+    background: linear-gradient(to bottom, #e6dada, #274046); 
 }
 
 .center-screen {
@@ -7,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 90vh;
+    min-height: 91.3vh;
   }
 .formulario{
     border-radius: 25px;
@@ -16,6 +19,10 @@ body{
     background: linear-gradient(to top, #11998e, #49a09d);
     box-shadow: 0px 0px 25px ;
     padding-bottom: 20px;
+}
+
+.formulario input[type=button]{
+    border-radius: 5px;
 }
 
 .navegador ul {
@@ -37,6 +44,15 @@ body{
     border-left:1px solid #bbb;
 }
 
+.navegador li a.logo{
+    text-align: center;
+    padding: 0%;
+    height: 46.3px;
+}
+
+.logo img{
+    height: 46.3px;
+}
 
 .navegador li a {
     display: block;
@@ -48,4 +64,29 @@ body{
 
 .navegador li a:hover{
     background-color: grey;
+}
+
+.tituloArticulo{
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.portfolio{
+    display: inline;
+}
+
+.articuloIzq{
+float: left;
+}
+
+.articuloIzq img{
+    border-radius: 30px;
+    width: auto;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.articuloDerecha{
+    font-size: 1.3em;
 }
