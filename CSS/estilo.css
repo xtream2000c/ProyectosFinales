@@ -12,6 +12,31 @@ body{
     text-align: center;
     min-height: 91.3vh;
   }
+
+#perfilUsuario{
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, #11998e, #49a09d);
+    box-shadow: 0px 0px 25px ;
+
+}
+
+#imgUsuario{
+    float: left;
+    margin: 10px;
+}
+
+#imgUsuario img{
+    width: 200px;
+    height: 200px;
+}
+
+#infoUsuario{
+    float: right;
+    margin: 10px;
+}
+
 .formulario{
     border-radius: 25px;
     width: 300px;
@@ -22,6 +47,9 @@ body{
 }
 
 .formulario input[type=button]{
+    border-radius: 5px;
+}
+.formulario input[type=submit]{
     border-radius: 5px;
 }
 
@@ -80,7 +108,7 @@ float: left;
 }
 
 .articuloIzq img{
-    border-radius: 30px;
+    border-radius: 50%;
     width: auto;
     height: 300px;
     margin-right: 20px;
