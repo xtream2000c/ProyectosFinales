@@ -19,7 +19,7 @@ function registro(event){
     var confirmacion = confirm("¿Desea confirmar el registro?");
 
     if (confirmacion) {
-        localStorage.setItem('usuarioRegistrado', JSON.stringify(registrojson));
+        localStorage.setItem(usuario, JSON.stringify(registrojson));
         location.href="login.html"
     }else{
         event.preventDefault();
