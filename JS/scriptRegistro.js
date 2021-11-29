@@ -14,8 +14,6 @@ function registro(event){
 
     var registrojson = {'usuario' : usuario, 'nombre' : nombre, 'email' : email, 'contrasena' : contrasena};
 
-    
-
     var confirmacion = confirm("¿Desea confirmar el registro?");
 
     if (confirmacion) {

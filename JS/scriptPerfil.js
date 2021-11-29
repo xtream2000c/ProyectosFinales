@@ -1,7 +1,7 @@
 window.onload = load;
 
 function load(){
-
+    main();
     var usuarioPerfil = JSON.parse(sessionStorage.getItem("usuario"));
 
     document.getElementById("nombreUsuario").innerHTML=usuarioPerfil.nombre;
