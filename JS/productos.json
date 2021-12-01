@@ -1,0 +1,8 @@
+
+  productos =  [
+        {"id" : "1", "imagen" : "images/producto1.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje"},
+        {"id" : "2", "imagen" : "images/producto2.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje"},
+        {"id" : "3", "imagen" : "images/producto3.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje"},
+        {"id" : "4", "imagen" : "images/producto4.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje"},
+        {"id" : "5", "imagen" : "images/producto5.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje"}
+    ]
