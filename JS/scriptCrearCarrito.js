@@ -7,7 +7,9 @@ function crearCarrito() {
             aniadirProducto(id);
         }, false);
     });
-    
+    document.getElementById("carrito").addEventListener("click", function(){
+        location.href ="carrito.html";
+    }, false);
 }
 
 function aniadirProducto(id) {
@@ -23,6 +25,10 @@ function aniadirProducto(id) {
 
     if (yaEsta == 0) {
         carrito.push(productos[id]);
+    }else{
+        productos[id].cantidad++
     }
+
+    sessionStorage.setItem("carrito", JSON.stringify(carrito));
 }
 

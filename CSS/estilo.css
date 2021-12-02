@@ -165,3 +165,23 @@ float: left;
     margin-top: 5px;
     font-size: 1.2em;
 }
+
+#productosCarrito{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cantidad{
+    height: 20px;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.cantidad p{
+    height: 20px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
