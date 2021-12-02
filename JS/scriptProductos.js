@@ -3,6 +3,7 @@ window.onload = load;
 function load(){
     cargarProductos();
     main();
+    crearCarrito();
     
 }
 
@@ -22,7 +23,7 @@ function cargarProductos() {
                             ${producto.descripcion}
                         </p>
                         <div class="botonCentrado">
-                            <button class="add-to-cart" onclick="addToCart(${producto.id})">Aniadir al carrito</button>
+                            <button id="aniadirCarrito(${producto.id})">Aniadir al carrito</button>
                         </div>
                     </div>
                 </div>
