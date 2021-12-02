@@ -47,10 +47,23 @@ body{
 }
 
 .formulario input[type=button]{
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color:aquamarine;
+    padding: 5px;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    margin: 5px
+
 }
 .formulario input[type=submit]{
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color:aquamarine;
+    padding: 5px;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    margin: 5px
 }
 
 .navegador ul {
@@ -131,6 +144,8 @@ float: left;
     height: 550px;
     width: 300px;
     background-color: #bbb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px ;
 }
 
 .imagenProducto{
@@ -172,16 +187,30 @@ float: left;
 }
 
 .cantidad{
-    height: 20px;
+    margin-left: 0px;
+    height: 40px;
     display: flex;
     position: absolute;
     bottom: 30px;
     text-align: center;
 }
 
+.cantidad button{
+    margin: 0px;
+}
+
 .cantidad p{
-    height: 20px;
-    margin: 0;
+    
+    height: 40px;
+    margin: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: #11998e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
 }

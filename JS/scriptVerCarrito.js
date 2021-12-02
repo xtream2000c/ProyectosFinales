@@ -20,9 +20,9 @@ function verCarrito() {
                         <p class="precioProducto">${producto.precio}€ x ${producto.cantidad}</p>
                         <p class="precioProducto">Total = ${Number(producto.precio) * Number(producto.cantidad)}€</p>
                         <div class="cantidad">
-                            <button id="eliminar(${producto.id})">eliminar</button> 
-                            <p>${producto.cantidad}</p>
-                            <button id="aniadir(${producto.id})">aniadir</button>
+                            <button class="eliminar" id="eliminar(${producto.id})"><i class="fas fa-cart-arrow-down"></i> Eliminar</button> 
+                            <p>Cantidad: ${producto.cantidad}</p>
+                            <button class="aniadir" id="aniadir(${producto.id})"><i class="fas fa-cart-plus"></i> Añadir</button>
                         </div>
                     </div>
                 </div>

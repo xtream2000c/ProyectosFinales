@@ -23,7 +23,7 @@ function cargarProductos() {
                             ${producto.descripcion}
                         </p>
                         <div class="botonCentrado">
-                            <button id="aniadirCarrito(${producto.id})">Aniadir al carrito</button>
+                            <button id="aniadirCarrito(${producto.id})"><i class="fas fa-cart-plus"></i> Añadir al carrito</button>
                         </div>
                     </div>
                 </div>
