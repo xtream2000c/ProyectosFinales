@@ -1,0 +1,214 @@
+body{
+    
+    background: #274046; 
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+#perfilUsuario{
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, #11998e, #49a09d);
+    box-shadow: 0px 0px 25px ;
+
+}
+
+#imgUsuario{
+    float: left;
+    margin: 10px;
+}
+
+#imgUsuario img{
+    width: 200px;
+    height: 200px;
+}
+
+#infoUsuario{
+    float: right;
+    margin: 10px;
+}
+
+.formulario{
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+    background: linear-gradient(to top, #11998e, #49a09d);
+    box-shadow: 0px 0px 25px ;
+    padding-bottom: 20px;
+}
+
+.formulario input[type=button]{
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color:aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    margin: 5px
+
+}
+.formulario input[type=submit]{
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color:aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    margin: 5px
+}
+
+.navegador ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.navegador li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+.izq{
+    float: right;
+    border-right: none;
+    border-left:1px solid #bbb;
+}
+
+.navegador li a.logo{
+    text-align: center;
+    padding: 0%;
+    height: 46.3px;
+}
+
+.logo img{
+    height: 46.3px;
+}
+
+.navegador li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegador li a:hover{
+    background-color: grey;
+}
+
+.tituloArticulo{
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.portfolio{
+    display: inline;
+}
+
+.articuloIzq{
+float: left;
+}
+
+.articuloIzq img{
+    border-radius: 50%;
+    width: auto;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.articuloDerecha{
+    font-size: 1.3em;
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 550px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px ;
+}
+
+.imagenProducto{
+    text-align: center;
+}
+
+.imagenProducto img{
+    padding-top: 10px;
+    height: 280px;
+    width: 280px;
+}
+
+.descripcionProducto{
+    position: relative;
+    padding: 15px;
+    height: 230px;
+}
+
+.botonCentrado{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.carrito{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+#errores{
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+#productosCarrito{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cantidad{
+    margin-left: 0px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.cantidad button{
+    margin: 0px;
+}
+
+.cantidad p{
+    
+    height: 40px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: #11998e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}

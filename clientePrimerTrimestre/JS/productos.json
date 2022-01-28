@@ -1,0 +1,8 @@
+
+productos =  [
+    {"id" : "0", "imagen" : "images/producto1.jpeg", "nombre" : "Mascarilla TNT", "precio" : "9.99", "descripcion" : "Mascarilla de tejido TNT, con tejido exterior en estampado camuflaje", "cantidad" : "1"},
+    {"id" : "1", "imagen" : "images/producto2.jpeg", "nombre" : "Top estampado flores", "precio" : "19.99", "descripcion" : "Top con estampado floral en tejido crepe", "cantidad" : "1"},
+    {"id" : "2", "imagen" : "images/producto3.jpeg", "nombre" : "Corset", "precio" : "19.99", "descripcion" : "Corset estampado vintage en tejido loneta", "cantidad" : "1"},
+    {"id" : "3", "imagen" : "images/producto4.jpeg", "nombre" : "Top tricolor", "precio" : "14.99", "descripcion" : "Top tricolor en ds tejidos strech y organza", "cantidad" : "1"},
+    {"id" : "4", "imagen" : "images/producto5.jpeg", "nombre" : "Short", "precio" : "19.99", "descripcion" : "Short aberturas laterales en tejido strech", "cantidad" : "1"}
+]

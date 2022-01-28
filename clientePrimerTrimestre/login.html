@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="JS/scriptLogin.js"></script>
+    
+</head>
+<body id="bodyForm">
+
+    <nav class="navegador">
+        <ul>
+            <li><a href="index.html" class="logo"><img src="images/PLD.png" alt=""></a></li>
+            <li ><a href="index.html">Inicio</a></li>
+            <div class="izq">
+                <li ><a href="aboutme.html" id="aboutme">Sobre mi</a></li>
+                <li><a href="registro.html" id="registro">Registrarse</a></li>
+                <li><a href="login.html" id="login">Iniciar Sesion</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="center-screen">
+        <div class="formulario">
+            <div class="tituloFormulario">
+                <h2>Iniciar sesion</h2>
+            </div>
+            <div class="infoFormulario">
+            <form action="" method="post" name="formulario" id="formulario">
+                <label for="usuario">Usuario </label>
+                <br>
+                <input type="text" name="usuario" id="usuario">
+                <br>
+                <label for="contrasena">Contraseña </label>
+                <br>
+                <input type="password" name="contrasena" id="contrasena">
+                <br>
+                <br>
+                <input type="button" id="volver" onclick="location.href='index.html'" value="Volver">
+                <input type="submit" name="submit" id="submit">
+            </form>
+            <div id="errores"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
