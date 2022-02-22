@@ -1,6 +1,13 @@
 var carrito = [];
 
 function crearCarrito() {
+
+    var carritoAnterior = JSON.parse(sessionStorage.getItem("carrito"));
+
+    if(carritoAnterior){
+        carrito = carritoAnterior;
+    }
+
     productos.forEach(producto => {
         var id = producto.id;
         document.getElementById(`aniadirCarrito(${producto.id})`).addEventListener("click", function(){

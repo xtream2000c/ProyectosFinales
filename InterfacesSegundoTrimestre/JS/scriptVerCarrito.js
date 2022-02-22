@@ -11,18 +11,29 @@ function verCarrito() {
     //Productos es un array de objetos, producto, que estan declarados en el archivo JSON
     carrito.forEach(producto => {
       productsEl.innerHTML += `
-                <div class="productos" id="${producto.id}">
-                    <div class="imagenProducto">
-                      <img src="${producto.imagen}" alt="${producto.nombre}">
-                    </div>
-                    <div class="descripcionProducto">
-                        <h2>${producto.nombre}</h2>
-                        <p class="precioProducto">${producto.precio}€ x ${producto.cantidad}</p>
-                        <p class="precioProducto">Total = ${Number(producto.precio) * Number(producto.cantidad)}€</p>
-                        <div class="cantidad">
-                            <button class="eliminar" id="eliminar(${producto.id})"><i class="fas fa-cart-arrow-down"></i> Eliminar</button> 
-                            <p>Cantidad: ${producto.cantidad}</p>
-                            <button class="aniadir" id="aniadir(${producto.id})"><i class="fas fa-cart-plus"></i> Añadir</button>
+                <div class="col-md-6 col-lg-4 col-xl-3 mt-2">
+                    <div class="card m-auto" style="width: 18rem;" id="${producto.id}">
+                        
+                        <img src="${producto.imagen}" alt="${producto.nombre}" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4 class="card-title">${producto.nombre}</h4>
+                            <h5 class="card-title">${producto.precio}€ x ${producto.cantidad}</h5>
+                            <p class="card-text">Total = ${Number(producto.precio) * Number(producto.cantidad)}€</p>
+                            <hr>
+                            <div class="container-fluid p-0 ">
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-4 p-0 ">
+                                        <button class="eliminar btn p-0" id="eliminar(${producto.id})"><i class="fas fa-cart-arrow-down"></i> Eliminar</button> 
+                                    </div>
+                                    <div class="col-4 p-0">
+                                        <p>Cantidad: ${producto.cantidad}</p>
+                                    </div>
+                                    <div class="col-4 p-0">
+                                        <button class="aniadir btn p-0" id="aniadir(${producto.id})"><i class="fas fa-cart-plus"></i> Añadir</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

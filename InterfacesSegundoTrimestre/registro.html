@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilo.css">
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="JS/scriptRegistro.js"></script>
 </head>
 <body id="bodyForm">
 
-    <nav class="navegador">
-        <ul>
-            <li><a href="index.html" class="logo"><img src="images/PLD.png" alt=""></a></li>
-            <li ><a href="index.html">Inicio</a></li>
-            <div class="izq">
-                <li ><a href="aboutme.html" id="aboutme">Sobre mi</a></li>
-                <li><a href="registro.html" id="registro">Registrarse</a></li>
-                <li><a href="login.html" id="login">Iniciar Sesion</a></li>
-            </div>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="index.html"><img src="images/PLD.png" height="36" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html" id="aboutme">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html" id="registro">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" id="login">Iniciar Sesion</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
 
     <div class="center-screen">
         <div class="formulario">
@@ -28,27 +43,27 @@
                 <h2>Registro</h2>
             </div>
             <div class="infoFormulario">
-            <form action="index.html" method="post" name="formulario" id="formulario">
-                <label for="nombre">Nombre</label>
-                <br>
-                <input type="text" name="nombre" id="nombre">
-                <br>
-                <label for="email">E-mail</label>
-                <br>
-                <input type="text" name="email" id="email">
-                <br>
-                <label for="usuario">Usuario</label>
-                <br>
-                <input type="text" name="usuario" id="usuario">
-                <br>
-                <label for="contrasena">Contraseña </label>
-                <br>
-                <input type="password" name="contrasena" id="contrasena">
-                <br>
-                <br>
-                <input type="button" id="volver" onclick="location.href='index.html'" value="Volver">
-                <input type="submit" name="submit" id="submit">
-            </form>
+                <form action="index.html" method="post" name="formulario" id="formulario">
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre">
+                    <br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <label for="usuario">Usuario</label>
+                    <br>
+                    <input type="text" name="usuario" id="usuario">
+                    <br>
+                    <label for="contrasena">Contraseña </label>
+                    <br>
+                    <input type="password" name="contrasena" id="contrasena">
+                    <br>
+                    <br>
+                    <input type="button" id="volver" onclick="location.href='index.html'" value="Volver">
+                    <input type="submit" name="submit" id="submit">
+                </form>
             <div id="errores"></div>
             </div>
         </div>

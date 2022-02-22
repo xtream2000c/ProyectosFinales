@@ -12,6 +12,8 @@ body{
   }
 
 #perfilUsuario{
+    margin-top: 100px;
+    margin: 20px;
     border-radius: 25px;
     width: auto;
     height: auto;

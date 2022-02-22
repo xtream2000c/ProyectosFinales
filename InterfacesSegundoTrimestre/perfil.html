@@ -5,31 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilo.css">
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="JS/script.js"></script>
     <script src="JS/scriptPerfil.js"></script>
 </head>
 <body>
-    <nav class="navegador">
-        <ul>
-            <li><a href="index.html" class="logo"><img src="images/PLD.png" alt=""></a></li>
-            <li ><a href="index.html">Inicio</a></li>
-            <div class="izq">
-                <li ><a href="aboutme.html" id="aboutme">Sobre mi</a></li>
-                <li><a href="registro.html" id="registro">Registrarse</a></li>
-                <li><a href="login.html" id="login">Iniciar Sesion</a></li>
-            </div>
-        </ul>
-    </nav>
-    <div class="center-screen">
-        <div id="perfilUsuario">
-            <div id="imgUsuario">
-                <img src="images/user.png" alt="">
-            </div>
-            <div id="infoUsuario">
-                <h1 id="usuario">Nombre usuario</h1>
-                <p id="nombreUsuario">Nombre</p>
-                <p id="emailUsuario">Email</p>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand m-0 p-0" href="index.html"><img src="images/PLD.png" height="36" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html" id="aboutme">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html" id="registro">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" id="login">Iniciar Sesion</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="perfilUsuario" class="col-6">
+                <div class="row">
+                    <div id="imgUsuario" class="col-sm-6 m-0 text-center">
+                        <img src="images/user.png" alt="">
+                    </div>
+                    <div id="infoUsuario" class="col-sm-6 m-0">
+                        <h1 id="usuario">Nombre usuario</h1>
+                        <p id="nombreUsuario">Nombre</p>
+                        <p id="emailUsuario">Email</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
